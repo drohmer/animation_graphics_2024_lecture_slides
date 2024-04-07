@@ -1,0 +1,61 @@
+
+
+= Handling collision between two spheres
+
+::[display:inline-block; width:850px; vertical-align:top;]
+
+== Position Based
+
+* 1. Detect collision \(\|p_1-p_2\|\leq r_1+r_2\)
+
+div::[height:25px;]::
+* If collision then:
+
+div::[height:25px;]::
+::[margin-left: 1em;]
+
+* 2a. Update Velocity
+** Elastic collision (/bouncing) 
+::[font-size:85%;]
+*** \(v_1= \alpha\, (v_1 + j/m_1\,u)\)
+*** \(v_2= \alpha\, (v_2 - j/m_2\,u)\)
+::
+
+
+div::[height:50px;]::
+
+* 2b. Correct position (project on contact surface)
+::[font-size:85%;]
+** \(p_1=p_1 + d/2\,u\)
+** \(p_2=p_2 - d/2\,u\)
+** \(d=r_1+r_2-\|p_1-p_2\|\): Collision depth
+::
+
+::
+
+::
+
+::[display:inline-block; width:800px; vertical-align:top;]
+== Velocity Based
+
+* 1. Detect collision \(\|p_1-p_2\|\leq r_1+r_2\)
+
+div::[height:25px;]::
+* If collision then:
+
+div::[height:25px;]::
+::[margin-left: 1em;]
+
+* 2. Update Velocity
+** Elastic collision (/bouncing) 
+*** If \(v\cdot n < 0\)
+::[font-size:85%;]
+**** \(v_1= \alpha\, (v_1 + j/m_1\,u)\)
+**** \(v_2= \alpha\, (v_2 - j/m_2\,u)\)
+::
+
+::
+
+::
+
+
