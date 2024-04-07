@@ -1,6 +1,6 @@
 # Animation in Graphics 2024 training days - course slides
 
-Source code for the slides used during the (https://imagecomputing.net/course/2024_gdr_igrv/)[Training Days of Animation in Graphics 2024].
+Source code for the slides used during the [https://imagecomputing.net/course/2024_gdr_igrv/](Training Days of Animation in Graphics 2024).
 
 
 
